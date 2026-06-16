@@ -1,0 +1,9 @@
+node_modules/
+dist/
+tmp/
+design-previews/
+个人简历网页-文案草稿.md
+.DS_Store
+.env
+.env.*
+!.env.example
