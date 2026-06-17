@@ -27,7 +27,7 @@ export const profile = {
   contact: {
     email: "wangcl2012@gmail.com",
     wechat: "wangcl2012",
-    platforms: "AI学习与认知",
+    phone: "15951849337",
   },
 };
 

@@ -678,17 +678,17 @@ function App() {
                 </div>
               </div>
               <div data-reveal="scale" style={{ "--reveal-delay": "180ms" }}>
-                <p>WECHAT OFFICIAL ACCOUNT</p>
+                <p>PHONE</p>
                 <div className="contact-value">
-                  <span>{profile.contact.platforms}</span>
+                  <span>{profile.contact.phone}</span>
                   <button
-                    className={copiedContact === "account" ? "copy-button is-copied" : "copy-button"}
+                    className={copiedContact === "phone" ? "copy-button is-copied" : "copy-button"}
                     type="button"
-                    aria-label="复制公众号名称"
-                    onClick={() => copyContact("account", profile.contact.platforms)}
+                    aria-label="复制手机号"
+                    onClick={() => copyContact("phone", profile.contact.phone)}
                   >
-                    {copiedContact === "account" ? <Check size={15} /> : <Copy size={15} />}
-                    <span>{copiedContact === "account" ? "已复制" : "复制"}</span>
+                    {copiedContact === "phone" ? <Check size={15} /> : <Copy size={15} />}
+                    <span>{copiedContact === "phone" ? "已复制" : "复制"}</span>
                   </button>
                 </div>
               </div>
